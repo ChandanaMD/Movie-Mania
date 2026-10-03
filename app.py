@@ -17,8 +17,7 @@ import os
 
 FILE_PATH = "/content/amazon_prime_movies_tv_2025_EDA_ready.csv"
 
-df = pd.read_csv("df = pd.read_csv("amazon_prime_movies_tv_2025_EDA_ready.csv")")
-
+df = pd.read_csv("amazon_prime_movies_tv_2025_EDA_ready.csv")
 print("Dataset loaded successfully!")
 print("Rows:", df.shape[0])
 print("Columns:", df.shape[1])
