@@ -26,7 +26,7 @@ print("\nColumns:")
 for column in df.columns:
     print("-", column)
 
-display(df.head())
+print(df.head())
 
 
 # ============================================================
@@ -188,7 +188,7 @@ print(data["Language"].value_counts().head(10))
 print("\nGenres:")
 print(genre_data["Genre"].value_counts().head(10))
 
-display(data.head())
+print(data.head())
 # ============================================================
 # STEP 3
 # RECOMMENDATION ENGINE + AGE RATING + AMAZON SEARCH LINK
@@ -1314,7 +1314,7 @@ h3 {
 
 .watch-button a {
 
-    display: inline-block;
+    print: inline-block;
 
     padding: 14px 28px;
 
